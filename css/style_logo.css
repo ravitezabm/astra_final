@@ -1,0 +1,24 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, img {
+    margin: -9px;
+    padding: 0;
+}
+
+/* Style the header and logo */
+header {
+    background-color: #333; /* Change this to your desired background color */
+    padding: 10px; /* Adjust the top and bottom padding as needed */
+    text-align: center; /* Center-align the logo horizontally */
+}
+
+.logo img {
+    max-width: 130%; /* Ensure the logo doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio of the logo */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 5px; /* Adjust the padding for smaller screens */
+    }
+}
